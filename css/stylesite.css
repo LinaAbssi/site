@@ -1,0 +1,201 @@
+body {
+    background:black;
+    color:white;
+    font-family: 'Rubik',medium;
+
+    
+}
+
+
+
+html { font-size: calc(1em + 1vw); } 
+
+/* setting the max width*/
+ @media screen and (min-width: 50em) {
+  html {
+    font-size: 1.5em;
+  }
+
+
+
+
+
+header
+  {
+
+max-width: 100%;
+max-height: 100%;
+
+
+
+
+
+
+}
+
+div.nom {
+
+z-index: 3;
+font-size: 700%;
+padding: 15% 50% 20% 5%;
+display: flex;
+flex-wrap: wrap;
+opacity: 1;
+
+}
+
+div.nom:hover {
+
+   
+  font-size: 705%;
+  font-color:blue;
+
+
+}
+
+
+
+
+
+
+
+
+div.teaser{
+  position :absolute ;
+  top :0 ; 
+  left:0;  
+  width: 100% ;
+  height: 100%;
+  z-index: -100;
+  display: flex;
+  flex-wrap: wrap;
+  opacity: 1;
+
+
+}
+
+
+
+article {
+
+    padding: 0% 50% 10% 5%;
+    display: flex;
+    flex-wrap: wrap;
+    
+
+    
+  
+
+   }
+
+#afficherimage{
+
+	opacity: 0;
+  max-width: 100%;
+  max-height: 100%;
+  z-index: 3;
+  display: wrap;
+  position: absolute;
+  top: 100%;
+  left: 800px;
+  right: 0%;
+  padding: 5% 5% 5% 5%
+}
+
+
+
+div.titre {
+
+position: fixed;
+top: 0;
+left: 45;
+max-width: 100%;
+height: 100%;
+opacity: 0;
+
+
+
+}
+
+div.explicatif {
+display:inline-block;
+display:inline;
+vertical-align:middle;
+-webkit-columns: 2;
+-moz-columns: 2;
+column-width: 30% ;
+column-gap: 400%;
+font-size: 60%;
+z-index: 200;
+text-align: left;
+float:right;
+line-height: 1,5;
+
+}
+
+h1{
+
+font-size: 60%;
+
+
+}
+
+h3 {
+
+font-size: 10%;
+font-family: 'Rubik',bold;
+position: relative;
+}
+
+#menu
+{
+   text-decoration:none; 
+  list-style-type: none;
+  display: wrap;
+  position: fixed;
+  top: 0%;
+  left: 1000px;
+  right: 0%;
+  padding: 5% 5% 5% 5%
+  margin:0;
+  border-width: 10;
+  border-color: white;
+  border: 1mm ridge rgb(10, 5, 22, .3);
+  flex-wrap: wrap;
+  text-align: justify;
+  z-index: 4;
+
+
+}
+
+
+#presentation a{
+position: absolute;
+display : block; /* on change le type d'élément, les liens deviennent des balises de type block */
+padding : 0;
+}
+
+
+
+ /*ul ul li*/
+ul#manifesto{
+  list-style-type: none;
+  left: 1000px;
+  display: none;
+  color: white;
+}
+
+
+
+
+
+
+
+ 
+
+
+
+  
+
+
+
