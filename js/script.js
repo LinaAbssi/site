@@ -7,12 +7,12 @@ $(document).ready(function() {
     var height = header.height()
     console.log(scroll, height)
 
-      if (height > scroll) {
-        console.log('fade in')
-        header.fadeIn("slow");
-      } else {
+      if (scroll >= height) {
         console.log('fade out')
-        header.fadeOut("slow");
+        header.fadeOut("slow")
+      } else {
+        console.log('fade in')
+        header.fadeIn("slow")
       }
       //
 

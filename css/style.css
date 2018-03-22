@@ -1,31 +1,23 @@
 body {
   /* background: black; */
   color: white;
-  font-family: 'Rubik', medium;
-}
+  font-family: 'Rubik', medium; }
 
 html {
-  font-size: calc(1em + 1vw);
-}
-
+  font-size: calc(1em + 1vw); }
 
 /* container flex */
-
 .container {
   display: flex;
-  flex-direction: column;
-}
-
-.header {
-  background-color: red;
-}
-
-.projet {
-  background-color: green;
-}
+  flex-direction: column; }
+  .container .header {
+    background-color: red;
+    padding: 5%; }
+  .container .projet {
+    padding: 5%;
+    background-color: green; }
 
 /* container grid */
-
 /* .container {
   display: grid;
   grid-template-columns: 5% auto 5%;

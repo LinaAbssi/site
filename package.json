@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "live-server"
+    "start": "live-server",
+    "css": "node-sass --include-path scss scss/style.scss css/style.css",
+    "prefix" : "sass-autoprefixer --include-path scss scss/style.scss css/style.css",
+    "watch": "nodemon -e scss -x \"npm run css\""
   },
   "repository": {
     "type": "git",
@@ -18,6 +21,9 @@
   },
   "homepage": "https://github.com/LinaAbssi/site#readme",
   "devDependencies": {
-    "live-server": "^1.2.0"
+    "live-server": "^1.2.0",
+    "node-sass": "^4.7.2",
+    "nodemon": "^1.17.2",
+    "sass-autoprefixer": "^1.0.1"
   }
 }
