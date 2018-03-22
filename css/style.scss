@@ -1,0 +1,49 @@
+body {
+  /* background: black; */
+  color: white;
+  font-family: 'Rubik', medium;
+}
+
+html {
+  font-size: calc(1em + 1vw);
+}
+/* container flex */
+.container {
+  display: flex;
+  flex-direction: column;
+
+  .header {
+    background-color: red;
+    padding: 5%;
+  }
+
+  .projet {
+    padding: 5%;
+    background-color: green;
+  }
+}
+/* container grid */
+/* .container {
+  display: grid;
+  grid-template-columns: 5% auto 5%;
+  grid-template-rows: auto;
+  grid-template-areas: "header header header"
+                       "projetA projetA projetA"
+                       "projetB projetB projetB"
+}
+
+.header {
+  grid-area: header;
+  background-color: red;
+}
+
+.projetA {
+  grid-area: projetA;
+  background-color: green;
+}
+
+
+.projetB {
+  grid-area: projetB;
+  background-color: blue;
+} */
